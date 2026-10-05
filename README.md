@@ -1,3 +1,11 @@
+> **Fork on pymorphy3.** Branch `pymorphy3` of this fork replaces unmaintained `pymorphy2` with
+> [`pymorphy3`](https://github.com/no-plagiarism/pymorphy3): no `pkg_resources`, works on Python 3.9–3.13.
+> Upstream: [natasha/yargy](https://github.com/natasha/yargy).
+>
+> - The Python 3.11 `getfullargspec` hotfix for pymorphy2 is removed: pymorphy3 has the fix.
+>
+> Install: `pip install "yargy @ https://github.com/hodzanassredin/yargy/archive/refs/heads/pymorphy3.tar.gz"`
+
 <img src="https://github.com/natasha/natasha-logos/blob/master/yargy.svg">
 
 ![CI](https://github.com/natasha/yargy/actions/workflows/test.yml/badge.svg)
