@@ -8,7 +8,7 @@ with open('README.md') as file:
 
 setup(
     name='yargy',
-    version='0.16.0',
+    version='0.16.0+pymorphy3',
 
     description='Rule-based facts extraction for Russian language',
     long_description=description,
@@ -29,6 +29,6 @@ setup(
         exclude=['tests']
     ),
     install_requires=[
-        'pymorphy2'
+        'pymorphy3>=2.0'
     ]
 )
